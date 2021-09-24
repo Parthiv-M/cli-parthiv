@@ -1,6 +1,6 @@
 # cli-parthiv
 
-This is a Command Line Interface Portfolio built with [Ink](https://www.npmjs.com/package/ink). This is available as an NPM package [here](https://www.npmjs.com/package/cli-parthiv).
+This is a Command Line Interface Portfolio built with [Ink](https://www.npmjs.com/package/ink). This CLI Portfolio is available as an NPM package [here](https://www.npmjs.com/package/cli-parthiv).
 
 # Prerequisites
 - [NodeJS](https://nodejs.org/en/), a JavaScript run-time engine
@@ -8,10 +8,15 @@ This is a Command Line Interface Portfolio built with [Ink](https://www.npmjs.co
   - Verify that npm is correctly installed by running `npm -v`
 
 # Installing and viewing the portfolio
-Run the following commands to install `cli-parthiv` on your system
+- Run the following command to install `cli-parthiv` on your system with `npm`
 
 ```bash
 $ npm install --global cli-parthiv
+```
+
+- Run the CLI directly with `npx` by running 
+```bash
+$ npx cli-parthiv
 ```
 ## Running the  CLI
 - Run the CLI with the `--help` option to see the options available
