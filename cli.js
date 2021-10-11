@@ -12,10 +12,18 @@ const cli = meow(`
 	  $ cli-parthiv
 
 	Options
-		--gradient  gradient-name which can be mind, fruit, morning or passion. The default gradient is cristal.
+		--gradient, -g  gradient-name which can be mind, fruit, morning or passion. The default gradient is cristal.
 
 	Example
 	  $ cli-parthiv --gradient=mind
-`);
+`, 
+{
+	flags: {
+		gradient: {
+			type: "string",
+			alias: "g"
+		}
+	}
+});
 
 render(React.createElement(ui, cli.flags));
