@@ -34,7 +34,7 @@ const App = ({ gradient = "cristal" }) => (
 				</Box>
 				<Box>
 					<Text color="#FF6A3B">
-						I am Parthiv, a 19 year old living in Kerala. I had a childhood filled with a generous mix of at least four languages. 
+						I am Parthiv, a 21 year old from Kerala. I had a childhood filled with a generous mix of at least four languages—Hindi, English, Gujarathi, and Malayalam. 
 						Consequently, when I am not immersed in some book or the other, I quietly muse about the plethora of reasons that make people tick.
 						A big fan of Sherlock Holmes, I am a keen observer and a fast learner, willing to pick up anything that interests me, which, more often than not, 
 						happens to be everything. Also, I love puns...especially ones that are pun-ishingly bad.
@@ -49,17 +49,31 @@ const App = ({ gradient = "cristal" }) => (
 				</Box>
 				<Box flexDirection="row" width="100%">
 					{
-						["Java", "HTML/CSS/JS", "ReactJS", "NodeJS", "NextJS"].map((skill, index) => {
+						["C", "HTML/CSS/JS", "MERN stack", "SQL"].map((skill, index) => {
 							return <SkillCard name={skill} key={index} />
 						})
 					}
 				</Box>
 				<Box flexDirection="row" width="100%">
 					{
-						["UI/UX", "Python", "AWS/Heroku", "Figma", "Docker"].map((skill, index) => {
+						["Figma", "Python", "Machine Learning"].map((skill, index) => {
 							return <SkillCard name={skill} key={index} />
 						})
 					}
+				</Box>
+			</Box>
+			{/* research section */}
+			<Box width="100%" paddingY={1} paddingX={2} flexDirection="column">
+				<Box width="100%" marginY={1}>
+					<Text>🔍 </Text>
+					<Text underline bold color="#8300ff">Research</Text>
+				</Box>
+				<Box>
+					<Text color="#8300ff">
+						I have experience working as a research collaborator at the undergraduate level. Working in the areas of 
+						NLP and Brain Computing Interface, I have gained knowledge of data manipulation and processing in Python, 
+						utilising ML techniques in various applications.
+					</Text>
 				</Box>
 			</Box>
 			{/* contact section */}
